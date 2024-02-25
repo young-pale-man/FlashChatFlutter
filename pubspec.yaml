@@ -4,13 +4,18 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0<3.0.0"
+  sdk: "3.2.6"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.2
+  cupertino_icons: ^1.0.0
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  modal_progress_hud_nsn: ^0.5.1
+  
 
 dev_dependencies:
   flutter_test:
